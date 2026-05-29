@@ -1,0 +1,11 @@
+# Empirical Accuracy Matrix
+
+Rows indicate the distortion used during training. Columns indicate the distortion used during testing.
+
+| trained_on   |   clean |   gaussian |   salt_pepper |   blur |   mixed |
+|:-------------|--------:|-----------:|--------------:|-------:|--------:|
+| clean        |  0.7312 |     0.5641 |        0.4134 | 0.6385 |  0.5313 |
+| gaussian     |  0.6761 |     0.6878 |        0.5332 | 0.5335 |  0.5867 |
+| salt_pepper  |  0.6998 |     0.6502 |        0.6828 | 0.6403 |  0.6601 |
+| blur         |  0.6769 |     0.5949 |        0.4409 | 0.6867 |  0.5778 |
+| mixed        |  0.6912 |     0.6768 |        0.6758 | 0.6749 |  0.6748 |

@@ -1,0 +1,6 @@
+tested_on,ensemble_accuracy,mixed_model_accuracy,ensemble_minus_mixed,winner
+clean,0.7448,0.6912,0.05359999999999998,ensemble
+gaussian,0.7132,0.6768,0.03639999999999999,ensemble
+salt_pepper,0.6132,0.6758,-0.06259999999999999,mixed
+blur,0.6968,0.6749,0.02189999999999992,ensemble
+mixed,0.6783,0.6748,0.0035000000000000586,ensemble
